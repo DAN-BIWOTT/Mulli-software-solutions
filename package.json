@@ -7,7 +7,7 @@
   "scripts": {
     "develop": "gatsby develop",
     "build": "gatsby build",
-    "start": "gatsby develop",
+    "start": "gatsby develop -p 3000 -H 127.0.0.1",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
   },
@@ -31,5 +31,8 @@
     "eslint-plugin-react": "^7.17.0",
     "eslint-plugin-react-hooks": "^4.2.0",
     "prettier": "^2.2.1"
+  },
+  "engines" : {
+    "node" : ">=17.0.0"
   }
 }
