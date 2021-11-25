@@ -8,4 +8,4 @@ npm install
 gastby develop
 ```
 
-- ✨muli@hekayaent.co.ke ✨
+✨muli@hekayaent.co.ke ✨
