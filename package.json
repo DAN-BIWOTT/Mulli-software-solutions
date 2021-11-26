@@ -8,12 +8,13 @@
     "develop": "gatsby develop",
     "build": "gatsby build",
     "start": "gatsby develop -p 3000 -H 127.0.0.1",
-    "serve": "gatsby serve",
+    "serve": "gatsby serve -p 3000",
     "clean": "gatsby clean"
   },
   "dependencies": {
     "gatsby": "^4.2.0",
     "gatsby-plugin-emotion": "^7.2.0",
+    "gatsby-theme-codebushi": "^1.0.0",
     "grep": "^0.1.0",
     "postcss": "^8.4.1",
     "react": "^17.0.2",
@@ -31,7 +32,7 @@
     "eslint-plugin-react-hooks": "^4.3.0",
     "prettier": "^2.5.0"
   },
-  "engines" : {
-    "node" : ">=17.0.0"
+  "engines": {
+    "node": ">=17.0.0"
   }
 }
